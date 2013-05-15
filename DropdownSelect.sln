@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropdownSelect", "DropdownSelect\DropdownSelect.csproj", "{35AEA1F3-75C0-42F9-AB30-81F1893973EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLauncher", "DemoLauncher\DemoLauncher.csproj", "{1D131C89-2117-4144-AADE-C3DE8DEB0C74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{712616BE-5B52-4110-B10D-4AAF144233DC}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35AEA1F3-75C0-42F9-AB30-81F1893973EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AEA1F3-75C0-42F9-AB30-81F1893973EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AEA1F3-75C0-42F9-AB30-81F1893973EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AEA1F3-75C0-42F9-AB30-81F1893973EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D131C89-2117-4144-AADE-C3DE8DEB0C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D131C89-2117-4144-AADE-C3DE8DEB0C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D131C89-2117-4144-AADE-C3DE8DEB0C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D131C89-2117-4144-AADE-C3DE8DEB0C74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
