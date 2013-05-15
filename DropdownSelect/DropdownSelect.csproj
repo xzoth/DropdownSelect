@@ -32,6 +32,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,8 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CollectionBase.cs" />
+    <Compile Include="Dropdown\DropdownColumn.cs" />
+    <Compile Include="Dropdown\DropdownColumnCollection.cs" />
+    <Compile Include="Dropdown\DropdownColumnEventArgs.cs" />
+    <Compile Include="Dropdown\DropdownSelect.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GridPanel\GridPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GridPanel\GridPanelDropdownCell.cs" />
+    <Compile Include="GridPanel\GridPanelDropdownColumn.cs" />
+    <Compile Include="GridPanel\GridPanelDropdownEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
